@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Las Mascotas</title>
+    <style>
+        body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+header {
+    background-color: #ff6f61;
+    color: white;
+    padding: 20px;
+    font-size: 24px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+#hero {
+    background-image: url('fondo.jpg');
+    background-size: cover;
+    padding: 80px 20px;
+    color: white;
+    font-size: 22px;
+}
+
+.grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+    width: 200px;
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 15px;
+    margin-top: 20px;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <h1>🐾 Las Mascotas 🐾</h1>
+        <nav>
+            <ul>
+                <li><a href="#tipos">Tipos</a></li>
+                <li><a href="#beneficios">Beneficios</a></li>
+                <li><a href="#cuidados">Cuidados</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero">
+            <h2>¡Los mejores compañeros de vida!</h2>
+            <p>Descubre todo sobre el cuidado y bienestar de nuestras adoradas mascotas.</p>
+        </section>
+
+        <section id="tipos">
+            <h2> Tipos de Mascotas </h2>
+            <div class="grid">
+                <div class="card">
+                    <img src="https://nupec.com/wp-content/uploads/2020/07/Captura-de-pantalla-2020-07-24-a-las-17.33.44.png" alt="Perro">
+                    <h3>Perros</h3>
+                    <p>Fieles, juguetones y llenos de amor.</p>
+                </div>
+                <div class="card">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/4/4d/Cat_November_2010-1a.jpg" alt="Gato">
+                    <h3>Gatos</h3>
+                    <p>Independientes y adorables.</p>
+                </div>
+                <div class="card">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Betta04.jpg/1200px-Betta04.jpg" alt="Pez">
+                    <h3>Peces</h3>
+                    <p>Tranquilidad y belleza en el hogar.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="beneficios">
+            <h2>✨ Beneficios de Tener una Mascota ✨</h2>
+            <ul>
+                <li>Compañía y amor incondicional.</li>
+                <li>Ayuda a reducir el estrés.</li>
+                <li>Fomentan la actividad física.</li>
+            </ul>
+        </section>
+
+        <section id="cuidados">
+            <h2> Cuidados Básicos </h2>
+            <p>Las mascotas requieren atención, alimentación adecuada y revisiones veterinarias periódicas.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 Las Mascotas | Tu guía sobre el mundo animal 🐾</p>
+    </footer>
+</body>
+</html>
